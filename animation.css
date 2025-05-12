@@ -1,0 +1,26 @@
+/* CSS for button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* CSS for animation */
+@keyframes changeColor {
+  0% {
+    background-color: #3498db; /* Initial color */
+  }
+  100% {
+    background-color: #e74c3c; /* Final color */
+  }
+}
+
+/* Animation class */
+.animate-color {
+  animation: changeColor 1s forwards;
+}
+
+.animate-transform {
+  transform: scale(1.2);
+}
